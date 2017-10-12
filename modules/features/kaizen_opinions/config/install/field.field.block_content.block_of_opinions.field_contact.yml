@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_of_opinions
+    - field.storage.block_content.field_contact
+    - webform.webform.contact
+  module:
+    - webform
+id: block_content.block_of_opinions.field_contact
+field_name: field_contact
+entity_type: block_content
+bundle: block_of_opinions
+label: contact
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    target_uuid: e9598008-183c-4692-9fa1-dccac5f07059
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  default_data: ''
+  status: open
+  open: ''
+  close: ''
+field_type: webform

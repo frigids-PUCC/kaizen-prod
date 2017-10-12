@@ -1,0 +1,9 @@
+name: Opinions
+type: module
+core: 8.x
+dependencies:
+  - block_content
+  - field
+  - webform
+version: 8.x-1.0
+package: kaizen
